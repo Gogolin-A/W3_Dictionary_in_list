@@ -8,6 +8,7 @@ user3 = {'name': 'Ольга', 'age': 18, 'account': account3}
 user4 = {'name': 'Анна', 'age': 27, 'account': account4}
 user_list = [user1, user2, user3, user4]
 user_list_modify = [user1, user2, user3, user4]
+
 # первая часть:
 key = input('Введите ключ (name или account): ').lower()
 for i in range(1, 5):
